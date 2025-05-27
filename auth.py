@@ -16,7 +16,7 @@ creds = ServiceAccountCredentials.from_json_keyfile_name("temp_credentials.json"
 client = gspread.authorize(creds)
 
 # Open the Google Sheet
-sheet = client.open("Personnel Data").sheet1
+sheet = client.open("Mysamplecodes").sheet1
 
 # Streamlit UI
 st.title("Personnel Info App")
